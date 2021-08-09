@@ -20,13 +20,14 @@ li{
   border-radius: 5px;
 }
 .container {
-  max-width: 550px;
-  margin: 30px auto;
+  /* max-width: 550px; */
+  /* margin: 30px auto; */
   overflow: auto;
   min-height: 300px;
-  border: 2px solid purple;
-  padding: 30px;
-  border-radius: 5px;
+  /* border: 2px solid purple; */
+  padding: 50px 250px 50px 250px;
+
+  /* border-radius: 5px; */
   background: radial-gradient(circle, rgb(236, 199, 215) 0%, rgb(199, 132, 233) 100%);
 
 }
