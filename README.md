@@ -6,6 +6,11 @@ This app does the following:
 - filters recipes by ingreadients.
 - search for a recipe by name.
 
+## DEMO:
+
+![App Demo](Demo/recipe-app-demo1.gif)
+
+
 ## Usage
 
 In the project directory, you can run:
