@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+li{
+  list-style-type:square;
+}
+.search-container{
+  box-shadow: 4px 4px 8px rgb(83, 82, 83);
+  background: radial-gradient(circle, rgb(247, 245, 245) 0%, rgb(231, 193, 233) 100%);
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.container {
+  max-width: 550px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid purple;
+  padding: 30px;
+  border-radius: 5px;
+  background: radial-gradient(circle, rgb(236, 199, 215) 0%, rgb(199, 132, 233) 100%);
+
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title{
+  text-shadow: 4px 4px 8px rgb(83, 82, 83);
+}
+.btn-1{
+  background: rgb(102, 11, 53);
+  color: #fff;
+  box-shadow: 4px 4px 8px rgb(83, 82, 83);
+}
+.btn-2{
+  background: rgb(58, 19, 110);
+  color: #fff;
+  box-shadow: 4px 4px 8px rgb(83, 82, 83);
+}
+.btn-close{
+  background: rgb(92, 88, 90);
+  color: #fff;
+  box-shadow: 4px 4px 8px rgb(83, 82, 83);
+}
+.btn-close:hover{
+  background: rgb(110, 106, 108);
+}
+.btn {
+  display: inline-block;
+  border: 2px solid white;
+  /* border: none; */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn-1:hover{
+  background: rgb(146, 24, 81);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn-2:hover{
+  background: rgb(84, 27, 158);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn-add{
+  display: block;
+  width: 100%;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  background-color:rgb(108, 65, 129);
+  color: #f4f4f4;
+}
+.btn-block:hover{
+  background-color:rgb(176, 125, 202);
+}
+
+.recipe {
+  background: #f4f4f4;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+}
+
+.recipe h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.search-form{
+  display: flex;
+  margin: 20px 0;
+}
+.search-form input {
+  flex-grow: 1;
+  padding: 3px 7px;
+  font-size: 17px;
+  height: 40px;
+}
+.search-form button[type=submit]{
+  background-color: rgb(132, 214, 50);
+}
+.search-form button[type=button]{
+  background-color: rgb(50, 214, 206);
+}
+
+hr{
+  border-top: 3px double #000000;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.add-remove {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 5px;
+
+}
+.left {
+  position: absolute;
+  top: 10; right: 100px; left:5px; 
+}
+.right {
+  float: right
+}
+.input-ingredient{
+  display: table-cell;
+  width: 100%;
+  
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.input-group {
+  display: table;
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+  display: inline-table;
+  vertical-align: middle;
+}
+.error {
+  color: rgb(245, 12, 12);
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
