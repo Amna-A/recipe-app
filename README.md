@@ -1,6 +1,10 @@
 # Recipe App
 
-Full stack app with React and Node/Express
+Full stack app with React and Node/Express.
+This app does the following:
+- view all recipes.
+- filters recipes by ingreadients.
+- search for a recipe by name.
 
 ## Usage
 
