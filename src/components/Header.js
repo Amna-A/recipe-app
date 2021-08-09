@@ -6,7 +6,10 @@ const Header = ({title, onAdd,  showAdd,onSearch, showSearch}) => {
     return (
         <header className='header'>
             <h1 className='title'>{title}</h1>
-            <Button onClick={onAdd} className={showAdd ? 'btn btn-close': 'btn btn-1'} text={showAdd ? 'Close': 'Add'}/>
+            
+            {/* the app could be modified to add recipes with the bellow button */}
+            {/* <Button onClick={onAdd} className={showAdd ? 'btn btn-close': 'btn btn-1'} text={showAdd ? 'Close': 'Add'}/> */}
+            
             <Button onClick={onSearch} className={showSearch ? 'btn btn-close': 'btn btn-2'} text={showSearch ? 'Close': 'Search'}/>
         </header>
     )

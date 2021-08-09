@@ -8,7 +8,9 @@ import AddRecipe from "./components/AddRecipe";
 const App = () => {
 
   //toggle add and search buttons
+  // add button is not visibile as it is not required in the assessment.
   const [showAdd, setShowAdd] = useState(false)
+  //search button
   const [showSearch, setShowSearch] = useState(false)
   
 
